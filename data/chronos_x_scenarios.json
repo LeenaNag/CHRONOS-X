@@ -1,0 +1,65 @@
+{
+  "dataset_name": "CHRONOS-X Synthetic Starter Dataset",
+  "version": "1.0",
+  "purpose": "Development and testing only; not official organizer data.",
+  "time_model": {
+    "timezone": "UTC-naive synthetic timestamps",
+    "base_time": "2035-06-18T08:00:00",
+    "virtual_horizon_minutes": 90
+  },
+  "scenarios": [
+    {
+      "scenario_id": "CX-001",
+      "name": "Cooling degradation",
+      "description": "Temperature rises while cooling performance drops. Includes delayed telemetry.",
+      "hidden_training_note": "Likely cooling degradation; verify with independent flow and power readings."
+    },
+    {
+      "scenario_id": "CX-002",
+      "name": "Spoofed temperature sensor",
+      "description": "One temperature sensor reports abnormal values while nearby evidence remains normal.",
+      "hidden_training_note": "The high temperature report is likely sensor spoofing; do not trust a single source."
+    },
+    {
+      "scenario_id": "CX-003",
+      "name": "Network intrusion and control disruption",
+      "description": "Suspicious network activity is followed by control-command anomalies.",
+      "hidden_training_note": "Investigate network activity and command provenance; association alone is not proof of causation."
+    },
+    {
+      "scenario_id": "CX-004",
+      "name": "Conflicting maintenance report",
+      "description": "A maintenance agent reports healthy equipment while physical telemetry conflicts.",
+      "hidden_training_note": "Maintenance report has low trust; compare it with independent telemetry."
+    },
+    {
+      "scenario_id": "CX-005",
+      "name": "Delayed secondary effect",
+      "description": "A recovery action appears helpful initially but a later pressure/temperature issue emerges.",
+      "hidden_training_note": "Evaluate delayed consequences, not only immediate improvement."
+    }
+  ],
+  "available_actions_example": [
+    {
+      "action": "NO_ACTION",
+      "description": "Continue observing without intervention"
+    },
+    {
+      "action": "REQUEST_EVIDENCE",
+      "description": "Request an independent sensor or log"
+    },
+    {
+      "action": "ISOLATE_CONTROL_NETWORK",
+      "description": "Isolate the control network after safety review"
+    },
+    {
+      "action": "ENABLE_BACKUP_COOLING",
+      "description": "Enable backup cooling if resource and safety constraints allow"
+    },
+    {
+      "action": "SAFE_SHUTDOWN",
+      "description": "Initiate a controlled shutdown if permitted"
+    }
+  ],
+  "important_caveat": "Numeric values and patterns are illustrative. Do not treat them as real industrial safety thresholds or as official simulator ground truth."
+}

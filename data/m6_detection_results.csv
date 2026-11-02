@@ -1,0 +1,341 @@
+scenario_id,event_id,event_time,arrival_time,source,event_type,value,unit,trust_score,component_id,signature_valid,note,value_numeric,signature_text,suspicious_reasons,arrival_delay_seconds,detection_status,review_priority
+CX-001,CX-001-EV00001,2035-06-18 08:00:00,2035-06-18 08:00:00,sensor_temp_A,temperature,66.4,C,0.94,reactor_A,True,,66.4,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00002,2035-06-18 08:00:00,2035-06-18 08:00:00,sensor_flow_A,coolant_flow,92.9,L/min,0.91,cooling_loop_A,True,,92.9,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00003,2035-06-18 08:00:00,2035-06-18 08:00:00,sensor_pressure_A,pressure,42.8,kPa,0.9,reactor_A,True,,42.8,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00004,2035-06-18 08:03:00,2035-06-18 08:03:00,sensor_temp_A,temperature,67.8,C,0.94,reactor_A,True,,67.8,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00005,2035-06-18 08:03:00,2035-06-18 08:03:00,sensor_flow_A,coolant_flow,88.9,L/min,0.91,cooling_loop_A,True,,88.9,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00006,2035-06-18 08:03:00,2035-06-18 08:03:00,sensor_pressure_A,pressure,40.9,kPa,0.9,reactor_A,True,,40.9,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00007,2035-06-18 08:06:00,2035-06-18 08:06:00,sensor_temp_A,temperature,67.5,C,0.94,reactor_A,True,,67.5,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00008,2035-06-18 08:06:00,2035-06-18 08:06:00,sensor_flow_A,coolant_flow,90.0,L/min,0.91,cooling_loop_A,True,,90.0,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00009,2035-06-18 08:06:00,2035-06-18 08:06:00,sensor_pressure_A,pressure,42.3,kPa,0.9,reactor_A,True,,42.3,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00010,2035-06-18 08:09:00,2035-06-18 08:09:00,sensor_temp_A,temperature,67.0,C,0.94,reactor_A,True,,67.0,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00011,2035-06-18 08:09:00,2035-06-18 08:09:00,sensor_flow_A,coolant_flow,90.3,L/min,0.91,cooling_loop_A,True,,90.3,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00012,2035-06-18 08:09:00,2035-06-18 08:09:00,sensor_pressure_A,pressure,43.3,kPa,0.9,reactor_A,True,,43.3,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-DUPLICATE-001,2035-06-18 08:06:00,2035-06-18 08:10:00,sensor_flow_A,coolant_flow,90.0,L/min,0.91,cooling_loop_A,True,Intentional duplicate payload with a different event ID for deduplication testing,90.0,true,Delayed message; ,240.0,REVIEW_REQUIRED,MEDIUM
+CX-001,CX-001-EV00013,2035-06-18 08:12:00,2035-06-18 08:12:00,sensor_temp_A,temperature,68.8,C,0.94,reactor_A,True,,68.8,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00014,2035-06-18 08:12:00,2035-06-18 08:12:00,sensor_flow_A,coolant_flow,88.6,L/min,0.91,cooling_loop_A,True,,88.6,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00015,2035-06-18 08:12:00,2035-06-18 08:12:00,sensor_pressure_A,pressure,43.2,kPa,0.9,reactor_A,True,,43.2,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00016,2035-06-18 08:15:00,2035-06-18 08:15:00,sensor_temp_A,temperature,68.4,C,0.94,reactor_A,True,,68.4,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00017,2035-06-18 08:15:00,2035-06-18 08:15:00,sensor_flow_A,coolant_flow,84.9,L/min,0.91,cooling_loop_A,True,,84.9,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00018,2035-06-18 08:15:00,2035-06-18 08:15:00,sensor_pressure_A,pressure,41.9,kPa,0.9,reactor_A,True,,41.9,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00019,2035-06-18 08:18:00,2035-06-18 08:18:00,sensor_temp_A,temperature,71.2,C,0.94,reactor_A,True,,71.2,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00020,2035-06-18 08:18:00,2035-06-18 08:18:00,sensor_flow_A,coolant_flow,81.9,L/min,0.91,cooling_loop_A,True,,81.9,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00021,2035-06-18 08:18:00,2035-06-18 08:18:00,sensor_pressure_A,pressure,42.9,kPa,0.9,reactor_A,True,,42.9,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00022,2035-06-18 08:21:00,2035-06-18 08:21:00,sensor_temp_A,temperature,70.0,C,0.94,reactor_A,True,,70.0,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00023,2035-06-18 08:21:00,2035-06-18 08:21:00,sensor_flow_A,coolant_flow,82.3,L/min,0.91,cooling_loop_A,True,,82.3,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00024,2035-06-18 08:21:00,2035-06-18 08:21:00,sensor_pressure_A,pressure,43.1,kPa,0.9,reactor_A,True,,43.1,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00025,2035-06-18 08:24:00,2035-06-18 08:24:00,sensor_temp_A,temperature,71.0,C,0.94,reactor_A,True,,71.0,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00027,2035-06-18 08:24:00,2035-06-18 08:24:00,sensor_pressure_A,pressure,44.0,kPa,0.9,reactor_A,True,,44.0,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00026,2035-06-18 08:24:00,2035-06-18 08:27:00,sensor_flow_A,coolant_flow,77.0,L/min,0.91,cooling_loop_A,True,,77.0,true,Delayed message; ,180.0,REVIEW_REQUIRED,MEDIUM
+CX-001,CX-001-EV00028,2035-06-18 08:27:00,2035-06-18 08:27:00,sensor_temp_A,temperature,72.6,C,0.94,reactor_A,True,,72.6,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00029,2035-06-18 08:27:00,2035-06-18 08:27:00,sensor_flow_A,coolant_flow,76.4,L/min,0.91,cooling_loop_A,True,,76.4,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00030,2035-06-18 08:27:00,2035-06-18 08:27:00,sensor_pressure_A,pressure,44.1,kPa,0.9,reactor_A,True,,44.1,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00031,2035-06-18 08:30:00,2035-06-18 08:30:00,sensor_temp_A,temperature,75.5,C,0.94,reactor_A,True,,75.5,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00032,2035-06-18 08:30:00,2035-06-18 08:30:00,sensor_flow_A,coolant_flow,72.6,L/min,0.91,cooling_loop_A,True,,72.6,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00033,2035-06-18 08:30:00,2035-06-18 08:30:00,sensor_pressure_A,pressure,43.3,kPa,0.9,reactor_A,True,,43.3,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00034,2035-06-18 08:30:00,2035-06-18 08:30:00,controller_A,cooling_command,INCREASE,state,0.88,cooling_loop_A,True,,,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00035,2035-06-18 08:33:00,2035-06-18 08:33:00,sensor_temp_A,temperature,72.6,C,0.94,reactor_A,True,,72.6,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00036,2035-06-18 08:33:00,2035-06-18 08:33:00,sensor_flow_A,coolant_flow,72.5,L/min,0.91,cooling_loop_A,True,,72.5,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00037,2035-06-18 08:33:00,2035-06-18 08:33:00,sensor_pressure_A,pressure,45.1,kPa,0.9,reactor_A,True,,45.1,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00038,2035-06-18 08:36:00,2035-06-18 08:36:00,sensor_temp_A,temperature,74.1,C,0.94,reactor_A,True,,74.1,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00039,2035-06-18 08:36:00,2035-06-18 08:36:00,sensor_flow_A,coolant_flow,67.4,L/min,0.91,cooling_loop_A,True,,67.4,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00040,2035-06-18 08:36:00,2035-06-18 08:36:00,sensor_pressure_A,pressure,43.3,kPa,0.9,reactor_A,True,,43.3,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00041,2035-06-18 08:39:00,2035-06-18 08:39:00,sensor_temp_A,temperature,75.8,C,0.94,reactor_A,True,,75.8,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00042,2035-06-18 08:39:00,2035-06-18 08:39:00,sensor_flow_A,coolant_flow,68.4,L/min,0.91,cooling_loop_A,True,,68.4,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00043,2035-06-18 08:39:00,2035-06-18 08:39:00,sensor_pressure_A,pressure,44.9,kPa,0.9,reactor_A,True,,44.9,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00044,2035-06-18 08:42:00,2035-06-18 08:42:00,sensor_temp_A,temperature,74.9,C,0.94,reactor_A,True,,74.9,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00045,2035-06-18 08:42:00,2035-06-18 08:42:00,sensor_flow_A,coolant_flow,65.2,L/min,0.91,cooling_loop_A,True,,65.2,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00046,2035-06-18 08:42:00,2035-06-18 08:42:00,sensor_pressure_A,pressure,44.6,kPa,0.9,reactor_A,True,,44.6,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00047,2035-06-18 08:45:00,2035-06-18 08:45:00,sensor_temp_A,temperature,76.6,C,0.94,reactor_A,True,,76.6,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00049,2035-06-18 08:45:00,2035-06-18 08:45:00,sensor_pressure_A,pressure,44.9,kPa,0.9,reactor_A,True,,44.9,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00048,2035-06-18 08:45:00,2035-06-18 08:48:00,sensor_flow_A,coolant_flow,64.3,L/min,0.91,cooling_loop_A,True,,64.3,true,Delayed message; ,180.0,REVIEW_REQUIRED,MEDIUM
+CX-001,CX-001-EV00050,2035-06-18 08:48:00,2035-06-18 08:48:00,sensor_temp_A,temperature,77.9,C,0.94,reactor_A,True,,77.9,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00051,2035-06-18 08:48:00,2035-06-18 08:48:00,sensor_flow_A,coolant_flow,60.6,L/min,0.91,cooling_loop_A,True,,60.6,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00052,2035-06-18 08:48:00,2035-06-18 08:48:00,sensor_pressure_A,pressure,45.2,kPa,0.9,reactor_A,True,,45.2,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00053,2035-06-18 08:48:00,2035-06-18 08:48:00,controller_A,cooling_command,INCREASE,state,0.88,cooling_loop_A,True,,,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00054,2035-06-18 08:51:00,2035-06-18 08:51:00,sensor_temp_A,temperature,78.5,C,0.94,reactor_A,True,,78.5,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00055,2035-06-18 08:51:00,2035-06-18 08:51:00,sensor_flow_A,coolant_flow,55.4,L/min,0.91,cooling_loop_A,True,,55.4,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00056,2035-06-18 08:51:00,2035-06-18 08:51:00,sensor_pressure_A,pressure,44.7,kPa,0.9,reactor_A,True,,44.7,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00057,2035-06-18 08:54:00,2035-06-18 08:54:00,sensor_temp_A,temperature,77.9,C,0.94,reactor_A,True,,77.9,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00058,2035-06-18 08:54:00,2035-06-18 08:54:00,sensor_flow_A,coolant_flow,54.8,L/min,0.91,cooling_loop_A,True,,54.8,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00059,2035-06-18 08:54:00,2035-06-18 08:54:00,sensor_pressure_A,pressure,45.0,kPa,0.9,reactor_A,True,,45.0,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00060,2035-06-18 08:57:00,2035-06-18 08:57:00,sensor_temp_A,temperature,80.9,C,0.94,reactor_A,True,,80.9,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00061,2035-06-18 08:57:00,2035-06-18 08:57:00,sensor_flow_A,coolant_flow,52.2,L/min,0.91,cooling_loop_A,True,,52.2,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00062,2035-06-18 08:57:00,2035-06-18 08:57:00,sensor_pressure_A,pressure,46.4,kPa,0.9,reactor_A,True,,46.4,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00063,2035-06-18 09:00:00,2035-06-18 09:00:00,sensor_temp_A,temperature,77.8,C,0.94,reactor_A,True,,77.8,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00065,2035-06-18 09:00:00,2035-06-18 09:00:00,sensor_pressure_A,pressure,45.8,kPa,0.9,reactor_A,True,,45.8,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00064,2035-06-18 09:00:00,2035-06-18 09:03:00,sensor_flow_A,coolant_flow,51.1,L/min,0.91,cooling_loop_A,True,,51.1,true,Delayed message; ,180.0,REVIEW_REQUIRED,MEDIUM
+CX-001,CX-001-EV00066,2035-06-18 09:03:00,2035-06-18 09:03:00,sensor_temp_A,temperature,81.2,C,0.94,reactor_A,True,,81.2,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00067,2035-06-18 09:03:00,2035-06-18 09:03:00,sensor_flow_A,coolant_flow,51.1,L/min,0.91,cooling_loop_A,True,,51.1,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00068,2035-06-18 09:03:00,2035-06-18 09:03:00,sensor_pressure_A,pressure,46.6,kPa,0.9,reactor_A,True,,46.6,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00069,2035-06-18 09:06:00,2035-06-18 09:06:00,sensor_temp_A,temperature,80.8,C,0.94,reactor_A,True,,80.8,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00070,2035-06-18 09:06:00,2035-06-18 09:06:00,sensor_flow_A,coolant_flow,46.6,L/min,0.91,cooling_loop_A,True,,46.6,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00071,2035-06-18 09:06:00,2035-06-18 09:06:00,sensor_pressure_A,pressure,46.8,kPa,0.9,reactor_A,True,,46.8,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00072,2035-06-18 09:06:00,2035-06-18 09:06:00,controller_A,cooling_command,INCREASE,state,0.88,cooling_loop_A,True,,,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00073,2035-06-18 09:09:00,2035-06-18 09:09:00,sensor_temp_A,temperature,81.6,C,0.94,reactor_A,True,,81.6,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00074,2035-06-18 09:09:00,2035-06-18 09:09:00,sensor_flow_A,coolant_flow,42.8,L/min,0.91,cooling_loop_A,True,,42.8,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00075,2035-06-18 09:09:00,2035-06-18 09:09:00,sensor_pressure_A,pressure,45.0,kPa,0.9,reactor_A,True,,45.0,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00076,2035-06-18 09:12:00,2035-06-18 09:12:00,sensor_temp_A,temperature,81.5,C,0.94,reactor_A,True,,81.5,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00077,2035-06-18 09:12:00,2035-06-18 09:12:00,sensor_flow_A,coolant_flow,44.2,L/min,0.91,cooling_loop_A,True,,44.2,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00078,2035-06-18 09:12:00,2035-06-18 09:12:00,sensor_pressure_A,pressure,46.5,kPa,0.9,reactor_A,True,,46.5,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00079,2035-06-18 09:15:00,2035-06-18 09:15:00,sensor_temp_A,temperature,84.1,C,0.94,reactor_A,True,,84.1,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00080,2035-06-18 09:15:00,2035-06-18 09:15:00,sensor_flow_A,coolant_flow,40.1,L/min,0.91,cooling_loop_A,True,,40.1,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00081,2035-06-18 09:15:00,2035-06-18 09:15:00,sensor_pressure_A,pressure,46.7,kPa,0.9,reactor_A,True,,46.7,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00082,2035-06-18 09:18:00,2035-06-18 09:18:00,sensor_temp_A,temperature,84.7,C,0.94,reactor_A,True,,84.7,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00083,2035-06-18 09:18:00,2035-06-18 09:18:00,sensor_flow_A,coolant_flow,38.2,L/min,0.91,cooling_loop_A,True,,38.2,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00084,2035-06-18 09:18:00,2035-06-18 09:18:00,sensor_pressure_A,pressure,47.1,kPa,0.9,reactor_A,True,,47.1,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00085,2035-06-18 09:21:00,2035-06-18 09:21:00,sensor_temp_A,temperature,83.8,C,0.94,reactor_A,True,,83.8,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00086,2035-06-18 09:21:00,2035-06-18 09:21:00,sensor_flow_A,coolant_flow,36.0,L/min,0.91,cooling_loop_A,True,,36.0,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00087,2035-06-18 09:21:00,2035-06-18 09:21:00,sensor_pressure_A,pressure,46.5,kPa,0.9,reactor_A,True,,46.5,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00088,2035-06-18 09:24:00,2035-06-18 09:24:00,sensor_temp_A,temperature,83.9,C,0.94,reactor_A,True,,83.9,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00089,2035-06-18 09:24:00,2035-06-18 09:24:00,sensor_flow_A,coolant_flow,35.5,L/min,0.91,cooling_loop_A,True,,35.5,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00090,2035-06-18 09:24:00,2035-06-18 09:24:00,sensor_pressure_A,pressure,46.6,kPa,0.9,reactor_A,True,,46.6,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00091,2035-06-18 09:27:00,2035-06-18 09:27:00,sensor_temp_A,temperature,86.0,C,0.94,reactor_A,True,,86.0,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00092,2035-06-18 09:27:00,2035-06-18 09:27:00,sensor_flow_A,coolant_flow,33.3,L/min,0.91,cooling_loop_A,True,,33.3,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00093,2035-06-18 09:27:00,2035-06-18 09:27:00,sensor_pressure_A,pressure,47.7,kPa,0.9,reactor_A,True,,47.7,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00094,2035-06-18 09:30:00,2035-06-18 09:30:00,sensor_temp_A,temperature,87.5,C,0.94,reactor_A,True,,87.5,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00095,2035-06-18 09:30:00,2035-06-18 09:30:00,sensor_flow_A,coolant_flow,30.0,L/min,0.91,cooling_loop_A,True,,30.0,true,,0.0,NO_FLAG,LOW
+CX-001,CX-001-EV00096,2035-06-18 09:30:00,2035-06-18 09:30:00,sensor_pressure_A,pressure,47.0,kPa,0.9,reactor_A,True,,47.0,true,,0.0,NO_FLAG,LOW
+CX-002,CX-002-EV00098,2035-06-18 08:00:00,2035-06-18 08:00:00,sensor_temp_A,temperature,66.1,C,0.93,reactor_A,True,,66.1,true,,0.0,NO_FLAG,LOW
+CX-002,CX-002-EV00099,2035-06-18 08:00:00,2035-06-18 08:00:00,sensor_temp_B,temperature,66.9,C,0.95,reactor_A,True,,66.9,true,,0.0,NO_FLAG,LOW
+CX-002,CX-002-EV00100,2035-06-18 08:00:00,2035-06-18 08:00:00,sensor_flow_A,coolant_flow,89.1,L/min,0.92,cooling_loop_A,True,,89.1,true,,0.0,NO_FLAG,LOW
+CX-002,CX-002-EV00101,2035-06-18 08:03:00,2035-06-18 08:03:00,sensor_temp_A,temperature,65.0,C,0.93,reactor_A,True,,65.0,true,,0.0,NO_FLAG,LOW
+CX-002,CX-002-EV00102,2035-06-18 08:03:00,2035-06-18 08:03:00,sensor_temp_B,temperature,65.5,C,0.95,reactor_A,True,,65.5,true,,0.0,NO_FLAG,LOW
+CX-002,CX-002-EV00103,2035-06-18 08:03:00,2035-06-18 08:03:00,sensor_flow_A,coolant_flow,92.8,L/min,0.92,cooling_loop_A,True,,92.8,true,,0.0,NO_FLAG,LOW
+CX-002,CX-002-EV00104,2035-06-18 08:06:00,2035-06-18 08:06:00,sensor_temp_A,temperature,65.8,C,0.93,reactor_A,True,,65.8,true,,0.0,NO_FLAG,LOW
+CX-002,CX-002-EV00105,2035-06-18 08:06:00,2035-06-18 08:06:00,sensor_temp_B,temperature,66.0,C,0.95,reactor_A,True,,66.0,true,,0.0,NO_FLAG,LOW
+CX-002,CX-002-EV00106,2035-06-18 08:06:00,2035-06-18 08:06:00,sensor_flow_A,coolant_flow,94.6,L/min,0.92,cooling_loop_A,True,,94.6,true,,0.0,NO_FLAG,LOW
+CX-002,CX-002-EV00107,2035-06-18 08:09:00,2035-06-18 08:09:00,sensor_temp_A,temperature,67.0,C,0.93,reactor_A,True,,67.0,true,,0.0,NO_FLAG,LOW
+CX-002,CX-002-EV00108,2035-06-18 08:09:00,2035-06-18 08:09:00,sensor_temp_B,temperature,66.6,C,0.95,reactor_A,True,,66.6,true,,0.0,NO_FLAG,LOW
+CX-002,CX-002-EV00109,2035-06-18 08:09:00,2035-06-18 08:09:00,sensor_flow_A,coolant_flow,90.1,L/min,0.92,cooling_loop_A,True,,90.1,true,,0.0,NO_FLAG,LOW
+CX-002,CX-002-EV00110,2035-06-18 08:12:00,2035-06-18 08:12:00,sensor_temp_A,temperature,66.3,C,0.93,reactor_A,True,,66.3,true,,0.0,NO_FLAG,LOW
+CX-002,CX-002-EV00111,2035-06-18 08:12:00,2035-06-18 08:12:00,sensor_temp_B,temperature,66.8,C,0.95,reactor_A,True,,66.8,true,,0.0,NO_FLAG,LOW
+CX-002,CX-002-EV00112,2035-06-18 08:12:00,2035-06-18 08:12:00,sensor_flow_A,coolant_flow,91.3,L/min,0.92,cooling_loop_A,True,,91.3,true,,0.0,NO_FLAG,LOW
+CX-002,CX-002-EV00113,2035-06-18 08:15:00,2035-06-18 08:15:00,sensor_temp_A,temperature,67.1,C,0.93,reactor_A,True,,67.1,true,,0.0,NO_FLAG,LOW
+CX-002,CX-002-EV00114,2035-06-18 08:15:00,2035-06-18 08:15:00,sensor_temp_B,temperature,67.9,C,0.95,reactor_A,True,,67.9,true,,0.0,NO_FLAG,LOW
+CX-002,CX-002-EV00115,2035-06-18 08:15:00,2035-06-18 08:15:00,sensor_flow_A,coolant_flow,92.9,L/min,0.92,cooling_loop_A,True,,92.9,true,,0.0,NO_FLAG,LOW
+CX-002,CX-002-EV00116,2035-06-18 08:18:00,2035-06-18 08:18:00,sensor_temp_A,temperature,91.1,C,0.35,reactor_A,False,Possible anomalous source,91.1,false,Low trust score; Invalid signature; ,0.0,REVIEW_REQUIRED,HIGH
+CX-002,CX-002-EV00117,2035-06-18 08:18:00,2035-06-18 08:18:00,sensor_temp_B,temperature,67.3,C,0.95,reactor_A,True,,67.3,true,,0.0,NO_FLAG,LOW
+CX-002,CX-002-EV00118,2035-06-18 08:18:00,2035-06-18 08:18:00,sensor_flow_A,coolant_flow,89.1,L/min,0.92,cooling_loop_A,True,,89.1,true,,0.0,NO_FLAG,LOW
+CX-002,CX-002-EV00119,2035-06-18 08:18:00,2035-06-18 08:18:00,network_monitor,sensor_config_change,UNAUTHORIZED,state,0.86,sensor_temp_A,False,,,false,Invalid signature; ,0.0,REVIEW_REQUIRED,HIGH
+CX-002,CX-002-EV00120,2035-06-18 08:21:00,2035-06-18 08:21:00,sensor_temp_A,temperature,91.2,C,0.35,reactor_A,False,Possible anomalous source,91.2,false,Low trust score; Invalid signature; ,0.0,REVIEW_REQUIRED,HIGH
+CX-002,CX-002-EV00121,2035-06-18 08:21:00,2035-06-18 08:21:00,sensor_temp_B,temperature,67.1,C,0.95,reactor_A,True,,67.1,true,,0.0,NO_FLAG,LOW
+CX-002,CX-002-EV00122,2035-06-18 08:21:00,2035-06-18 08:21:00,sensor_flow_A,coolant_flow,92.5,L/min,0.92,cooling_loop_A,True,,92.5,true,,0.0,NO_FLAG,LOW
+CX-002,CX-002-EV00123,2035-06-18 08:24:00,2035-06-18 08:24:00,sensor_temp_A,temperature,94.4,C,0.35,reactor_A,False,Possible anomalous source,94.4,false,Low trust score; Invalid signature; ,0.0,REVIEW_REQUIRED,HIGH
+CX-002,CX-002-EV00124,2035-06-18 08:24:00,2035-06-18 08:24:00,sensor_temp_B,temperature,67.0,C,0.95,reactor_A,True,,67.0,true,,0.0,NO_FLAG,LOW
+CX-002,CX-002-EV00125,2035-06-18 08:24:00,2035-06-18 08:24:00,sensor_flow_A,coolant_flow,91.5,L/min,0.92,cooling_loop_A,True,,91.5,true,,0.0,NO_FLAG,LOW
+CX-002,CX-002-EV00126,2035-06-18 08:27:00,2035-06-18 08:27:00,sensor_temp_A,temperature,92.3,C,0.35,reactor_A,False,Possible anomalous source,92.3,false,Low trust score; Invalid signature; ,0.0,REVIEW_REQUIRED,HIGH
+CX-002,CX-002-EV00127,2035-06-18 08:27:00,2035-06-18 08:27:00,sensor_temp_B,temperature,65.9,C,0.95,reactor_A,True,,65.9,true,,0.0,NO_FLAG,LOW
+CX-002,CX-002-EV00128,2035-06-18 08:27:00,2035-06-18 08:27:00,sensor_flow_A,coolant_flow,92.4,L/min,0.92,cooling_loop_A,True,,92.4,true,,0.0,NO_FLAG,LOW
+CX-002,CX-002-EV00129,2035-06-18 08:30:00,2035-06-18 08:30:00,sensor_temp_A,temperature,93.3,C,0.35,reactor_A,False,Possible anomalous source,93.3,false,Low trust score; Invalid signature; ,0.0,REVIEW_REQUIRED,HIGH
+CX-002,CX-002-EV00130,2035-06-18 08:30:00,2035-06-18 08:30:00,sensor_temp_B,temperature,68.5,C,0.95,reactor_A,True,,68.5,true,,0.0,NO_FLAG,LOW
+CX-002,CX-002-EV00131,2035-06-18 08:30:00,2035-06-18 08:30:00,sensor_flow_A,coolant_flow,92.7,L/min,0.92,cooling_loop_A,True,,92.7,true,,0.0,NO_FLAG,LOW
+CX-002,CX-002-EV00132,2035-06-18 08:30:00,2035-06-18 08:30:00,network_monitor,sensor_config_change,UNAUTHORIZED,state,0.86,sensor_temp_A,False,,,false,Invalid signature; ,0.0,REVIEW_REQUIRED,HIGH
+CX-002,CX-002-EV00133,2035-06-18 08:33:00,2035-06-18 08:33:00,sensor_temp_A,temperature,90.2,C,0.35,reactor_A,False,Possible anomalous source,90.2,false,Low trust score; Invalid signature; ,0.0,REVIEW_REQUIRED,HIGH
+CX-002,CX-002-EV00134,2035-06-18 08:33:00,2035-06-18 08:33:00,sensor_temp_B,temperature,68.6,C,0.95,reactor_A,True,,68.6,true,,0.0,NO_FLAG,LOW
+CX-002,CX-002-EV00135,2035-06-18 08:33:00,2035-06-18 08:33:00,sensor_flow_A,coolant_flow,90.7,L/min,0.92,cooling_loop_A,True,,90.7,true,,0.0,NO_FLAG,LOW
+CX-002,CX-002-EV00136,2035-06-18 08:36:00,2035-06-18 08:36:00,sensor_temp_A,temperature,91.4,C,0.35,reactor_A,False,Possible anomalous source,91.4,false,Low trust score; Invalid signature; ,0.0,REVIEW_REQUIRED,HIGH
+CX-002,CX-002-EV00137,2035-06-18 08:36:00,2035-06-18 08:36:00,sensor_temp_B,temperature,66.0,C,0.95,reactor_A,True,,66.0,true,,0.0,NO_FLAG,LOW
+CX-002,CX-002-EV00138,2035-06-18 08:36:00,2035-06-18 08:36:00,sensor_flow_A,coolant_flow,89.2,L/min,0.92,cooling_loop_A,True,,89.2,true,,0.0,NO_FLAG,LOW
+CX-002,CX-002-EV00139,2035-06-18 08:39:00,2035-06-18 08:39:00,sensor_temp_A,temperature,91.7,C,0.35,reactor_A,False,Possible anomalous source,91.7,false,Low trust score; Invalid signature; ,0.0,REVIEW_REQUIRED,HIGH
+CX-002,CX-002-EV00140,2035-06-18 08:39:00,2035-06-18 08:39:00,sensor_temp_B,temperature,67.7,C,0.95,reactor_A,True,,67.7,true,,0.0,NO_FLAG,LOW
+CX-002,CX-002-EV00141,2035-06-18 08:39:00,2035-06-18 08:39:00,sensor_flow_A,coolant_flow,89.1,L/min,0.92,cooling_loop_A,True,,89.1,true,,0.0,NO_FLAG,LOW
+CX-002,CX-002-EV00142,2035-06-18 08:42:00,2035-06-18 08:42:00,sensor_temp_A,temperature,92.5,C,0.35,reactor_A,False,Possible anomalous source,92.5,false,Low trust score; Invalid signature; ,0.0,REVIEW_REQUIRED,HIGH
+CX-002,CX-002-EV00143,2035-06-18 08:42:00,2035-06-18 08:42:00,sensor_temp_B,temperature,65.9,C,0.95,reactor_A,True,,65.9,true,,0.0,NO_FLAG,LOW
+CX-002,CX-002-EV00144,2035-06-18 08:42:00,2035-06-18 08:42:00,sensor_flow_A,coolant_flow,93.7,L/min,0.92,cooling_loop_A,True,,93.7,true,,0.0,NO_FLAG,LOW
+CX-002,CX-002-EV00145,2035-06-18 08:42:00,2035-06-18 08:42:00,network_monitor,sensor_config_change,UNAUTHORIZED,state,0.86,sensor_temp_A,False,,,false,Invalid signature; ,0.0,REVIEW_REQUIRED,HIGH
+CX-002,CX-002-EV00146,2035-06-18 08:45:00,2035-06-18 08:45:00,sensor_temp_A,temperature,96.4,C,0.35,reactor_A,False,Possible anomalous source,96.4,false,Low trust score; Invalid signature; ,0.0,REVIEW_REQUIRED,HIGH
+CX-002,CX-002-EV00147,2035-06-18 08:45:00,2035-06-18 08:45:00,sensor_temp_B,temperature,69.2,C,0.95,reactor_A,True,,69.2,true,,0.0,NO_FLAG,LOW
+CX-002,CX-002-EV00148,2035-06-18 08:45:00,2035-06-18 08:45:00,sensor_flow_A,coolant_flow,92.8,L/min,0.92,cooling_loop_A,True,,92.8,true,,0.0,NO_FLAG,LOW
+CX-002,CX-002-EV00149,2035-06-18 08:48:00,2035-06-18 08:48:00,sensor_temp_A,temperature,88.8,C,0.35,reactor_A,False,Possible anomalous source,88.8,false,Low trust score; Invalid signature; ,0.0,REVIEW_REQUIRED,HIGH
+CX-002,CX-002-EV00150,2035-06-18 08:48:00,2035-06-18 08:48:00,sensor_temp_B,temperature,65.9,C,0.95,reactor_A,True,,65.9,true,,0.0,NO_FLAG,LOW
+CX-002,CX-002-EV00151,2035-06-18 08:48:00,2035-06-18 08:48:00,sensor_flow_A,coolant_flow,92.5,L/min,0.92,cooling_loop_A,True,,92.5,true,,0.0,NO_FLAG,LOW
+CX-002,CX-002-EV00152,2035-06-18 08:51:00,2035-06-18 08:51:00,sensor_temp_A,temperature,91.4,C,0.35,reactor_A,False,Possible anomalous source,91.4,false,Low trust score; Invalid signature; ,0.0,REVIEW_REQUIRED,HIGH
+CX-002,CX-002-EV00153,2035-06-18 08:51:00,2035-06-18 08:51:00,sensor_temp_B,temperature,66.1,C,0.95,reactor_A,True,,66.1,true,,0.0,NO_FLAG,LOW
+CX-002,CX-002-EV00154,2035-06-18 08:51:00,2035-06-18 08:51:00,sensor_flow_A,coolant_flow,90.8,L/min,0.92,cooling_loop_A,True,,90.8,true,,0.0,NO_FLAG,LOW
+CX-002,CX-002-EV00155,2035-06-18 08:54:00,2035-06-18 08:54:00,sensor_temp_A,temperature,93.6,C,0.35,reactor_A,False,Possible anomalous source,93.6,false,Low trust score; Invalid signature; ,0.0,REVIEW_REQUIRED,HIGH
+CX-002,CX-002-EV00156,2035-06-18 08:54:00,2035-06-18 08:54:00,sensor_temp_B,temperature,66.8,C,0.95,reactor_A,True,,66.8,true,,0.0,NO_FLAG,LOW
+CX-002,CX-002-EV00157,2035-06-18 08:54:00,2035-06-18 08:54:00,sensor_flow_A,coolant_flow,92.3,L/min,0.92,cooling_loop_A,True,,92.3,true,,0.0,NO_FLAG,LOW
+CX-002,CX-002-EV00158,2035-06-18 08:54:00,2035-06-18 08:54:00,network_monitor,sensor_config_change,UNAUTHORIZED,state,0.86,sensor_temp_A,False,,,false,Invalid signature; ,0.0,REVIEW_REQUIRED,HIGH
+CX-002,CX-002-EV00159,2035-06-18 08:57:00,2035-06-18 08:57:00,sensor_temp_A,temperature,90.4,C,0.35,reactor_A,False,Possible anomalous source,90.4,false,Low trust score; Invalid signature; ,0.0,REVIEW_REQUIRED,HIGH
+CX-002,CX-002-EV00160,2035-06-18 08:57:00,2035-06-18 08:57:00,sensor_temp_B,temperature,66.8,C,0.95,reactor_A,True,,66.8,true,,0.0,NO_FLAG,LOW
+CX-002,CX-002-EV00161,2035-06-18 08:57:00,2035-06-18 08:57:00,sensor_flow_A,coolant_flow,88.7,L/min,0.92,cooling_loop_A,True,,88.7,true,,0.0,NO_FLAG,LOW
+CX-002,CX-002-EV00162,2035-06-18 09:00:00,2035-06-18 09:00:00,sensor_temp_A,temperature,91.9,C,0.35,reactor_A,False,Possible anomalous source,91.9,false,Low trust score; Invalid signature; ,0.0,REVIEW_REQUIRED,HIGH
+CX-002,CX-002-EV00163,2035-06-18 09:00:00,2035-06-18 09:00:00,sensor_temp_B,temperature,66.5,C,0.95,reactor_A,True,,66.5,true,,0.0,NO_FLAG,LOW
+CX-002,CX-002-EV00164,2035-06-18 09:00:00,2035-06-18 09:00:00,sensor_flow_A,coolant_flow,95.5,L/min,0.92,cooling_loop_A,True,,95.5,true,,0.0,NO_FLAG,LOW
+CX-003,CX-003-EV00165,2035-06-18 08:00:00,2035-06-18 08:00:00,sensor_temp_A,temperature,68.1,C,0.93,reactor_A,True,,68.1,true,,0.0,NO_FLAG,LOW
+CX-003,CX-003-EV00166,2035-06-18 08:00:00,2035-06-18 08:00:00,sensor_flow_A,coolant_flow,92.0,L/min,0.91,cooling_loop_A,True,,92.0,true,,0.0,NO_FLAG,LOW
+CX-003,CX-003-EV00167,2035-06-18 08:03:00,2035-06-18 08:03:00,sensor_temp_A,temperature,67.5,C,0.93,reactor_A,True,,67.5,true,,0.0,NO_FLAG,LOW
+CX-003,CX-003-EV00168,2035-06-18 08:03:00,2035-06-18 08:03:00,sensor_flow_A,coolant_flow,87.6,L/min,0.91,cooling_loop_A,True,,87.6,true,,0.0,NO_FLAG,LOW
+CX-003,CX-003-EV00169,2035-06-18 08:06:00,2035-06-18 08:06:00,sensor_temp_A,temperature,67.0,C,0.93,reactor_A,True,,67.0,true,,0.0,NO_FLAG,LOW
+CX-003,CX-003-EV00170,2035-06-18 08:06:00,2035-06-18 08:06:00,sensor_flow_A,coolant_flow,88.5,L/min,0.91,cooling_loop_A,True,,88.5,true,,0.0,NO_FLAG,LOW
+CX-003,CX-003-EV00171,2035-06-18 08:09:00,2035-06-18 08:09:00,sensor_temp_A,temperature,70.1,C,0.93,reactor_A,True,,70.1,true,,0.0,NO_FLAG,LOW
+CX-003,CX-003-EV00172,2035-06-18 08:09:00,2035-06-18 08:09:00,sensor_flow_A,coolant_flow,88.4,L/min,0.91,cooling_loop_A,True,,88.4,true,,0.0,NO_FLAG,LOW
+CX-003,CX-003-EV00173,2035-06-18 08:12:00,2035-06-18 08:12:00,sensor_temp_A,temperature,68.8,C,0.93,reactor_A,True,,68.8,true,,0.0,NO_FLAG,LOW
+CX-003,CX-003-EV00174,2035-06-18 08:12:00,2035-06-18 08:12:00,sensor_flow_A,coolant_flow,88.2,L/min,0.91,cooling_loop_A,True,,88.2,true,,0.0,NO_FLAG,LOW
+CX-003,CX-003-EV00175,2035-06-18 08:15:00,2035-06-18 08:15:00,sensor_temp_A,temperature,68.9,C,0.93,reactor_A,True,,68.9,true,,0.0,NO_FLAG,LOW
+CX-003,CX-003-EV00176,2035-06-18 08:15:00,2035-06-18 08:15:00,sensor_flow_A,coolant_flow,90.8,L/min,0.91,cooling_loop_A,True,,90.8,true,,0.0,NO_FLAG,LOW
+CX-003,CX-003-EV00177,2035-06-18 08:15:00,2035-06-18 08:15:00,network_monitor,network_alert,UNUSUAL_TRAFFIC,state,0.89,control_network,True,,,true,,0.0,NO_FLAG,LOW
+CX-003,CX-003-EV00178,2035-06-18 08:18:00,2035-06-18 08:18:00,sensor_temp_A,temperature,67.8,C,0.93,reactor_A,True,,67.8,true,,0.0,NO_FLAG,LOW
+CX-003,CX-003-EV00179,2035-06-18 08:18:00,2035-06-18 08:18:00,sensor_flow_A,coolant_flow,89.9,L/min,0.91,cooling_loop_A,True,,89.9,true,,0.0,NO_FLAG,LOW
+CX-003,CX-003-EV00180,2035-06-18 08:18:00,2035-06-18 08:18:00,network_monitor,network_alert,UNUSUAL_TRAFFIC,state,0.89,control_network,True,,,true,,0.0,NO_FLAG,LOW
+CX-003,CX-003-EV00181,2035-06-18 08:21:00,2035-06-18 08:21:00,sensor_temp_A,temperature,67.3,C,0.93,reactor_A,True,,67.3,true,,0.0,NO_FLAG,LOW
+CX-003,CX-003-EV00182,2035-06-18 08:21:00,2035-06-18 08:21:00,sensor_flow_A,coolant_flow,90.9,L/min,0.91,cooling_loop_A,True,,90.9,true,,0.0,NO_FLAG,LOW
+CX-003,CX-003-EV00183,2035-06-18 08:21:00,2035-06-18 08:21:00,network_monitor,network_alert,UNUSUAL_TRAFFIC,state,0.89,control_network,False,,,false,Invalid signature; ,0.0,REVIEW_REQUIRED,HIGH
+CX-003,CX-003-EV00184,2035-06-18 08:24:00,2035-06-18 08:24:00,sensor_temp_A,temperature,67.5,C,0.93,reactor_A,True,,67.5,true,,0.0,NO_FLAG,LOW
+CX-003,CX-003-EV00185,2035-06-18 08:24:00,2035-06-18 08:24:00,sensor_flow_A,coolant_flow,87.5,L/min,0.91,cooling_loop_A,True,,87.5,true,,0.0,NO_FLAG,LOW
+CX-003,CX-003-EV00186,2035-06-18 08:24:00,2035-06-18 08:24:00,network_monitor,network_alert,UNUSUAL_TRAFFIC,state,0.89,control_network,True,,,true,,0.0,NO_FLAG,LOW
+CX-003,CX-003-EV00187,2035-06-18 08:24:00,2035-06-18 08:24:00,controller_A,cooling_command,DECREASE,state,0.62,cooling_loop_A,False,Command provenance requires review,,false,Invalid signature; ,0.0,REVIEW_REQUIRED,HIGH
+CX-003,CX-003-EV00188,2035-06-18 08:27:00,2035-06-18 08:27:00,sensor_temp_A,temperature,66.7,C,0.93,reactor_A,True,,66.7,true,,0.0,NO_FLAG,LOW
+CX-003,CX-003-EV00189,2035-06-18 08:27:00,2035-06-18 08:27:00,sensor_flow_A,coolant_flow,90.3,L/min,0.91,cooling_loop_A,True,,90.3,true,,0.0,NO_FLAG,LOW
+CX-003,CX-003-EV00190,2035-06-18 08:27:00,2035-06-18 08:27:00,network_monitor,network_alert,UNUSUAL_TRAFFIC,state,0.89,control_network,True,,,true,,0.0,NO_FLAG,LOW
+CX-003,CX-003-EV00191,2035-06-18 08:30:00,2035-06-18 08:30:00,sensor_temp_A,temperature,69.6,C,0.93,reactor_A,True,,69.6,true,,0.0,NO_FLAG,LOW
+CX-003,CX-003-EV00192,2035-06-18 08:30:00,2035-06-18 08:30:00,sensor_flow_A,coolant_flow,90.3,L/min,0.91,cooling_loop_A,True,,90.3,true,,0.0,NO_FLAG,LOW
+CX-003,CX-003-EV00193,2035-06-18 08:30:00,2035-06-18 08:30:00,controller_A,cooling_command,DECREASE,state,0.62,cooling_loop_A,False,Command provenance requires review,,false,Invalid signature; ,0.0,REVIEW_REQUIRED,HIGH
+CX-003,CX-003-EV00194,2035-06-18 08:33:00,2035-06-18 08:33:00,sensor_temp_A,temperature,67.9,C,0.93,reactor_A,True,,67.9,true,,0.0,NO_FLAG,LOW
+CX-003,CX-003-EV00195,2035-06-18 08:33:00,2035-06-18 08:33:00,sensor_flow_A,coolant_flow,90.6,L/min,0.91,cooling_loop_A,True,,90.6,true,,0.0,NO_FLAG,LOW
+CX-003,CX-003-EV00196,2035-06-18 08:36:00,2035-06-18 08:36:00,sensor_temp_A,temperature,69.3,C,0.93,reactor_A,True,,69.3,true,,0.0,NO_FLAG,LOW
+CX-003,CX-003-EV00197,2035-06-18 08:36:00,2035-06-18 08:36:00,sensor_flow_A,coolant_flow,90.4,L/min,0.91,cooling_loop_A,True,,90.4,true,,0.0,NO_FLAG,LOW
+CX-003,CX-003-EV00198,2035-06-18 08:36:00,2035-06-18 08:36:00,controller_A,cooling_command,DECREASE,state,0.62,cooling_loop_A,False,Command provenance requires review,,false,Invalid signature; ,0.0,REVIEW_REQUIRED,HIGH
+CX-003,CX-003-EV00199,2035-06-18 08:39:00,2035-06-18 08:39:00,sensor_temp_A,temperature,67.6,C,0.93,reactor_A,True,,67.6,true,,0.0,NO_FLAG,LOW
+CX-003,CX-003-EV00200,2035-06-18 08:39:00,2035-06-18 08:39:00,sensor_flow_A,coolant_flow,92.2,L/min,0.91,cooling_loop_A,True,,92.2,true,,0.0,NO_FLAG,LOW
+CX-003,CX-003-EV00201,2035-06-18 08:42:00,2035-06-18 08:42:00,sensor_temp_A,temperature,68.4,C,0.93,reactor_A,True,,68.4,true,,0.0,NO_FLAG,LOW
+CX-003,CX-003-EV00202,2035-06-18 08:42:00,2035-06-18 08:42:00,sensor_flow_A,coolant_flow,93.1,L/min,0.91,cooling_loop_A,True,,93.1,true,,0.0,NO_FLAG,LOW
+CX-003,CX-003-EV00203,2035-06-18 08:45:00,2035-06-18 08:45:00,sensor_temp_A,temperature,68.2,C,0.93,reactor_A,True,,68.2,true,,0.0,NO_FLAG,LOW
+CX-003,CX-003-EV00204,2035-06-18 08:45:00,2035-06-18 08:45:00,sensor_flow_A,coolant_flow,87.6,L/min,0.91,cooling_loop_A,True,,87.6,true,,0.0,NO_FLAG,LOW
+CX-003,CX-003-EV00205,2035-06-18 08:48:00,2035-06-18 08:48:00,sensor_temp_A,temperature,66.6,C,0.93,reactor_A,True,,66.6,true,,0.0,NO_FLAG,LOW
+CX-003,CX-003-EV00206,2035-06-18 08:48:00,2035-06-18 08:48:00,sensor_flow_A,coolant_flow,93.3,L/min,0.91,cooling_loop_A,True,,93.3,true,,0.0,NO_FLAG,LOW
+CX-003,CX-003-EV00207,2035-06-18 08:51:00,2035-06-18 08:51:00,sensor_temp_A,temperature,69.7,C,0.93,reactor_A,True,,69.7,true,,0.0,NO_FLAG,LOW
+CX-003,CX-003-EV00208,2035-06-18 08:51:00,2035-06-18 08:51:00,sensor_flow_A,coolant_flow,89.6,L/min,0.91,cooling_loop_A,True,,89.6,true,,0.0,NO_FLAG,LOW
+CX-003,CX-003-EV00209,2035-06-18 08:54:00,2035-06-18 08:54:00,sensor_temp_A,temperature,67.6,C,0.93,reactor_A,True,,67.6,true,,0.0,NO_FLAG,LOW
+CX-003,CX-003-EV00210,2035-06-18 08:54:00,2035-06-18 08:54:00,sensor_flow_A,coolant_flow,92.9,L/min,0.91,cooling_loop_A,True,,92.9,true,,0.0,NO_FLAG,LOW
+CX-003,CX-003-EV00211,2035-06-18 08:57:00,2035-06-18 08:57:00,sensor_temp_A,temperature,66.9,C,0.93,reactor_A,True,,66.9,true,,0.0,NO_FLAG,LOW
+CX-003,CX-003-EV00212,2035-06-18 08:57:00,2035-06-18 08:57:00,sensor_flow_A,coolant_flow,88.2,L/min,0.91,cooling_loop_A,True,,88.2,true,,0.0,NO_FLAG,LOW
+CX-003,CX-003-EV00213,2035-06-18 09:00:00,2035-06-18 09:00:00,sensor_temp_A,temperature,68.6,C,0.93,reactor_A,True,,68.6,true,,0.0,NO_FLAG,LOW
+CX-003,CX-003-EV00214,2035-06-18 09:00:00,2035-06-18 09:00:00,sensor_flow_A,coolant_flow,89.2,L/min,0.91,cooling_loop_A,True,,89.2,true,,0.0,NO_FLAG,LOW
+CX-004,CX-004-EV00215,2035-06-18 08:00:00,2035-06-18 08:00:00,sensor_temp_A,temperature,69.0,C,0.93,reactor_A,True,,69.0,true,,0.0,NO_FLAG,LOW
+CX-004,CX-004-EV00216,2035-06-18 08:00:00,2035-06-18 08:00:00,sensor_flow_A,coolant_flow,87.7,L/min,0.92,cooling_loop_A,True,,87.7,true,,0.0,NO_FLAG,LOW
+CX-004,CX-004-EV00217,2035-06-18 08:03:00,2035-06-18 08:03:00,sensor_temp_A,temperature,69.9,C,0.93,reactor_A,True,,69.9,true,,0.0,NO_FLAG,LOW
+CX-004,CX-004-EV00218,2035-06-18 08:03:00,2035-06-18 08:03:00,sensor_flow_A,coolant_flow,89.5,L/min,0.92,cooling_loop_A,True,,89.5,true,,0.0,NO_FLAG,LOW
+CX-004,CX-004-EV00219,2035-06-18 08:06:00,2035-06-18 08:06:00,sensor_temp_A,temperature,70.2,C,0.93,reactor_A,True,,70.2,true,,0.0,NO_FLAG,LOW
+CX-004,CX-004-EV00220,2035-06-18 08:06:00,2035-06-18 08:06:00,sensor_flow_A,coolant_flow,86.6,L/min,0.92,cooling_loop_A,True,,86.6,true,,0.0,NO_FLAG,LOW
+CX-004,CX-004-EV00221,2035-06-18 08:09:00,2035-06-18 08:09:00,sensor_temp_A,temperature,68.6,C,0.93,reactor_A,True,,68.6,true,,0.0,NO_FLAG,LOW
+CX-004,CX-004-EV00222,2035-06-18 08:09:00,2035-06-18 08:09:00,sensor_flow_A,coolant_flow,83.9,L/min,0.92,cooling_loop_A,True,,83.9,true,,0.0,NO_FLAG,LOW
+CX-004,CX-004-EV00223,2035-06-18 08:12:00,2035-06-18 08:12:00,sensor_temp_A,temperature,70.3,C,0.93,reactor_A,True,,70.3,true,,0.0,NO_FLAG,LOW
+CX-004,CX-004-EV00224,2035-06-18 08:12:00,2035-06-18 08:12:00,sensor_flow_A,coolant_flow,80.2,L/min,0.92,cooling_loop_A,True,,80.2,true,,0.0,NO_FLAG,LOW
+CX-004,CX-004-EV00225,2035-06-18 08:15:00,2035-06-18 08:15:00,sensor_temp_A,temperature,70.8,C,0.93,reactor_A,True,,70.8,true,,0.0,NO_FLAG,LOW
+CX-004,CX-004-EV00226,2035-06-18 08:15:00,2035-06-18 08:15:00,sensor_flow_A,coolant_flow,80.6,L/min,0.92,cooling_loop_A,True,,80.6,true,,0.0,NO_FLAG,LOW
+CX-004,CX-004-EV00227,2035-06-18 08:18:00,2035-06-18 08:18:00,sensor_temp_A,temperature,73.2,C,0.93,reactor_A,True,,73.2,true,,0.0,NO_FLAG,LOW
+CX-004,CX-004-EV00228,2035-06-18 08:18:00,2035-06-18 08:18:00,sensor_flow_A,coolant_flow,77.2,L/min,0.92,cooling_loop_A,True,,77.2,true,,0.0,NO_FLAG,LOW
+CX-004,CX-004-EV00229,2035-06-18 08:18:00,2035-06-18 08:18:00,maintenance_agent,maintenance_status,HEALTHY,state,0.28,cooling_loop_A,False,Conflicts with telemetry trend,,false,Low trust score; Invalid signature; ,0.0,REVIEW_REQUIRED,HIGH
+CX-004,CX-004-EV00230,2035-06-18 08:21:00,2035-06-18 08:21:00,sensor_temp_A,temperature,72.8,C,0.93,reactor_A,True,,72.8,true,,0.0,NO_FLAG,LOW
+CX-004,CX-004-EV00231,2035-06-18 08:21:00,2035-06-18 08:21:00,sensor_flow_A,coolant_flow,77.6,L/min,0.92,cooling_loop_A,True,,77.6,true,,0.0,NO_FLAG,LOW
+CX-004,CX-004-EV00232,2035-06-18 08:24:00,2035-06-18 08:24:00,sensor_temp_A,temperature,73.0,C,0.93,reactor_A,True,,73.0,true,,0.0,NO_FLAG,LOW
+CX-004,CX-004-EV00233,2035-06-18 08:24:00,2035-06-18 08:24:00,sensor_flow_A,coolant_flow,79.2,L/min,0.92,cooling_loop_A,True,,79.2,true,,0.0,NO_FLAG,LOW
+CX-004,CX-004-EV00234,2035-06-18 08:27:00,2035-06-18 08:27:00,sensor_temp_A,temperature,74.4,C,0.93,reactor_A,True,,74.4,true,,0.0,NO_FLAG,LOW
+CX-004,CX-004-EV00235,2035-06-18 08:27:00,2035-06-18 08:27:00,sensor_flow_A,coolant_flow,78.5,L/min,0.92,cooling_loop_A,True,,78.5,true,,0.0,NO_FLAG,LOW
+CX-004,CX-004-EV00236,2035-06-18 08:30:00,2035-06-18 08:30:00,sensor_temp_A,temperature,74.2,C,0.93,reactor_A,True,,74.2,true,,0.0,NO_FLAG,LOW
+CX-004,CX-004-EV00237,2035-06-18 08:30:00,2035-06-18 08:30:00,sensor_flow_A,coolant_flow,73.1,L/min,0.92,cooling_loop_A,True,,73.1,true,,0.0,NO_FLAG,LOW
+CX-004,CX-004-EV00238,2035-06-18 08:33:00,2035-06-18 08:33:00,sensor_temp_A,temperature,74.7,C,0.93,reactor_A,True,,74.7,true,,0.0,NO_FLAG,LOW
+CX-004,CX-004-EV00239,2035-06-18 08:33:00,2035-06-18 08:33:00,sensor_flow_A,coolant_flow,73.6,L/min,0.92,cooling_loop_A,True,,73.6,true,,0.0,NO_FLAG,LOW
+CX-004,CX-004-EV00240,2035-06-18 08:36:00,2035-06-18 08:36:00,sensor_temp_A,temperature,75.7,C,0.93,reactor_A,True,,75.7,true,,0.0,NO_FLAG,LOW
+CX-004,CX-004-EV00241,2035-06-18 08:36:00,2035-06-18 08:36:00,sensor_flow_A,coolant_flow,69.6,L/min,0.92,cooling_loop_A,True,,69.6,true,,0.0,NO_FLAG,LOW
+CX-004,CX-004-EV00242,2035-06-18 08:36:00,2035-06-18 08:36:00,maintenance_agent,maintenance_status,HEALTHY,state,0.28,cooling_loop_A,False,Conflicts with telemetry trend,,false,Low trust score; Invalid signature; ,0.0,REVIEW_REQUIRED,HIGH
+CX-004,CX-004-EV00243,2035-06-18 08:39:00,2035-06-18 08:39:00,sensor_temp_A,temperature,76.1,C,0.93,reactor_A,True,,76.1,true,,0.0,NO_FLAG,LOW
+CX-004,CX-004-EV00244,2035-06-18 08:39:00,2035-06-18 08:39:00,sensor_flow_A,coolant_flow,70.9,L/min,0.92,cooling_loop_A,True,,70.9,true,,0.0,NO_FLAG,LOW
+CX-004,CX-004-EV00245,2035-06-18 08:42:00,2035-06-18 08:42:00,sensor_temp_A,temperature,79.1,C,0.93,reactor_A,True,,79.1,true,,0.0,NO_FLAG,LOW
+CX-004,CX-004-EV00246,2035-06-18 08:42:00,2035-06-18 08:42:00,sensor_flow_A,coolant_flow,72.9,L/min,0.92,cooling_loop_A,True,,72.9,true,,0.0,NO_FLAG,LOW
+CX-004,CX-004-EV00247,2035-06-18 08:45:00,2035-06-18 08:45:00,sensor_temp_A,temperature,76.2,C,0.93,reactor_A,True,,76.2,true,,0.0,NO_FLAG,LOW
+CX-004,CX-004-EV00248,2035-06-18 08:45:00,2035-06-18 08:45:00,sensor_flow_A,coolant_flow,67.2,L/min,0.92,cooling_loop_A,True,,67.2,true,,0.0,NO_FLAG,LOW
+CX-004,CX-004-EV00249,2035-06-18 08:48:00,2035-06-18 08:48:00,sensor_temp_A,temperature,76.2,C,0.93,reactor_A,True,,76.2,true,,0.0,NO_FLAG,LOW
+CX-004,CX-004-EV00250,2035-06-18 08:48:00,2035-06-18 08:48:00,sensor_flow_A,coolant_flow,65.2,L/min,0.92,cooling_loop_A,True,,65.2,true,,0.0,NO_FLAG,LOW
+CX-004,CX-004-EV00251,2035-06-18 08:51:00,2035-06-18 08:51:00,sensor_temp_A,temperature,78.5,C,0.93,reactor_A,True,,78.5,true,,0.0,NO_FLAG,LOW
+CX-004,CX-004-EV00252,2035-06-18 08:51:00,2035-06-18 08:51:00,sensor_flow_A,coolant_flow,67.5,L/min,0.92,cooling_loop_A,True,,67.5,true,,0.0,NO_FLAG,LOW
+CX-004,CX-004-EV00253,2035-06-18 08:54:00,2035-06-18 08:54:00,sensor_temp_A,temperature,78.0,C,0.93,reactor_A,True,,78.0,true,,0.0,NO_FLAG,LOW
+CX-004,CX-004-EV00254,2035-06-18 08:54:00,2035-06-18 08:54:00,sensor_flow_A,coolant_flow,62.4,L/min,0.92,cooling_loop_A,True,,62.4,true,,0.0,NO_FLAG,LOW
+CX-004,CX-004-EV00255,2035-06-18 08:54:00,2035-06-18 08:54:00,maintenance_agent,maintenance_status,HEALTHY,state,0.28,cooling_loop_A,False,Conflicts with telemetry trend,,false,Low trust score; Invalid signature; ,0.0,REVIEW_REQUIRED,HIGH
+CX-004,CX-004-EV00256,2035-06-18 08:57:00,2035-06-18 08:57:00,sensor_temp_A,temperature,77.1,C,0.93,reactor_A,True,,77.1,true,,0.0,NO_FLAG,LOW
+CX-004,CX-004-EV00257,2035-06-18 08:57:00,2035-06-18 08:57:00,sensor_flow_A,coolant_flow,62.0,L/min,0.92,cooling_loop_A,True,,62.0,true,,0.0,NO_FLAG,LOW
+CX-004,CX-004-EV00258,2035-06-18 09:00:00,2035-06-18 09:00:00,sensor_temp_A,temperature,78.7,C,0.93,reactor_A,True,,78.7,true,,0.0,NO_FLAG,LOW
+CX-004,CX-004-EV00259,2035-06-18 09:00:00,2035-06-18 09:00:00,sensor_flow_A,coolant_flow,59.9,L/min,0.92,cooling_loop_A,True,,59.9,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00260,2035-06-18 08:00:00,2035-06-18 08:00:00,sensor_temp_A,temperature,77.1,C,0.92,reactor_A,True,,77.1,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00261,2035-06-18 08:00:00,2035-06-18 08:00:00,sensor_pressure_A,pressure,39.9,kPa,0.91,reactor_A,True,,39.9,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00262,2035-06-18 08:03:00,2035-06-18 08:03:00,sensor_temp_A,temperature,77.0,C,0.92,reactor_A,True,,77.0,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00263,2035-06-18 08:03:00,2035-06-18 08:03:00,sensor_pressure_A,pressure,38.9,kPa,0.91,reactor_A,True,,38.9,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00264,2035-06-18 08:06:00,2035-06-18 08:06:00,sensor_temp_A,temperature,81.6,C,0.92,reactor_A,True,,81.6,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00265,2035-06-18 08:06:00,2035-06-18 08:06:00,sensor_pressure_A,pressure,39.2,kPa,0.91,reactor_A,True,,39.2,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00266,2035-06-18 08:09:00,2035-06-18 08:09:00,sensor_temp_A,temperature,79.2,C,0.92,reactor_A,True,,79.2,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00267,2035-06-18 08:09:00,2035-06-18 08:09:00,sensor_pressure_A,pressure,41.8,kPa,0.91,reactor_A,True,,41.8,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00268,2035-06-18 08:12:00,2035-06-18 08:12:00,sensor_temp_A,temperature,83.9,C,0.92,reactor_A,True,,83.9,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00269,2035-06-18 08:12:00,2035-06-18 08:12:00,sensor_pressure_A,pressure,39.5,kPa,0.91,reactor_A,True,,39.5,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00270,2035-06-18 08:15:00,2035-06-18 08:15:00,sensor_temp_A,temperature,81.4,C,0.92,reactor_A,True,,81.4,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00271,2035-06-18 08:15:00,2035-06-18 08:15:00,sensor_pressure_A,pressure,40.9,kPa,0.91,reactor_A,True,,40.9,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00272,2035-06-18 08:18:00,2035-06-18 08:18:00,sensor_temp_A,temperature,84.2,C,0.92,reactor_A,True,,84.2,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00273,2035-06-18 08:18:00,2035-06-18 08:18:00,sensor_pressure_A,pressure,39.9,kPa,0.91,reactor_A,True,,39.9,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00274,2035-06-18 08:21:00,2035-06-18 08:21:00,sensor_temp_A,temperature,83.0,C,0.92,reactor_A,True,,83.0,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00275,2035-06-18 08:21:00,2035-06-18 08:21:00,sensor_pressure_A,pressure,41.5,kPa,0.91,reactor_A,True,,41.5,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00276,2035-06-18 08:24:00,2035-06-18 08:24:00,sensor_temp_A,temperature,84.4,C,0.92,reactor_A,True,,84.4,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00277,2035-06-18 08:24:00,2035-06-18 08:24:00,sensor_pressure_A,pressure,40.7,kPa,0.91,reactor_A,True,,40.7,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00278,2035-06-18 08:27:00,2035-06-18 08:27:00,sensor_temp_A,temperature,84.6,C,0.92,reactor_A,True,,84.6,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00279,2035-06-18 08:27:00,2035-06-18 08:27:00,sensor_pressure_A,pressure,40.0,kPa,0.91,reactor_A,True,,40.0,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00280,2035-06-18 08:30:00,2035-06-18 08:30:00,sensor_temp_A,temperature,84.8,C,0.92,reactor_A,True,,84.8,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00281,2035-06-18 08:30:00,2035-06-18 08:30:00,sensor_pressure_A,pressure,42.8,kPa,0.91,reactor_A,True,,42.8,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00282,2035-06-18 08:30:00,2035-06-18 08:30:00,operator_console,intervention,BACKUP_COOLING_ON,action,0.98,cooling_loop_B,True,Illustrative recovery action; later effects must be assessed,,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00283,2035-06-18 08:33:00,2035-06-18 08:33:00,sensor_temp_A,temperature,84.1,C,0.92,reactor_A,True,,84.1,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00284,2035-06-18 08:33:00,2035-06-18 08:33:00,sensor_pressure_A,pressure,42.7,kPa,0.91,reactor_A,True,,42.7,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00285,2035-06-18 08:36:00,2035-06-18 08:36:00,sensor_temp_A,temperature,83.2,C,0.92,reactor_A,True,,83.2,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00286,2035-06-18 08:36:00,2035-06-18 08:36:00,sensor_pressure_A,pressure,44.1,kPa,0.91,reactor_A,True,,44.1,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00287,2035-06-18 08:39:00,2035-06-18 08:39:00,sensor_temp_A,temperature,81.7,C,0.92,reactor_A,True,,81.7,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00288,2035-06-18 08:39:00,2035-06-18 08:39:00,sensor_pressure_A,pressure,43.7,kPa,0.91,reactor_A,True,,43.7,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00289,2035-06-18 08:42:00,2035-06-18 08:42:00,sensor_temp_A,temperature,80.5,C,0.92,reactor_A,True,,80.5,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00290,2035-06-18 08:42:00,2035-06-18 08:42:00,sensor_pressure_A,pressure,43.6,kPa,0.91,reactor_A,True,,43.6,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00291,2035-06-18 08:45:00,2035-06-18 08:45:00,sensor_temp_A,temperature,78.6,C,0.92,reactor_A,True,,78.6,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00292,2035-06-18 08:45:00,2035-06-18 08:45:00,sensor_pressure_A,pressure,44.0,kPa,0.91,reactor_A,True,,44.0,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00293,2035-06-18 08:48:00,2035-06-18 08:48:00,sensor_temp_A,temperature,78.1,C,0.92,reactor_A,True,,78.1,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00294,2035-06-18 08:48:00,2035-06-18 08:48:00,sensor_pressure_A,pressure,45.6,kPa,0.91,reactor_A,True,,45.6,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00295,2035-06-18 08:51:00,2035-06-18 08:51:00,sensor_temp_A,temperature,78.6,C,0.92,reactor_A,True,,78.6,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00296,2035-06-18 08:51:00,2035-06-18 08:51:00,sensor_pressure_A,pressure,44.4,kPa,0.91,reactor_A,True,,44.4,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00297,2035-06-18 08:54:00,2035-06-18 08:54:00,sensor_temp_A,temperature,75.2,C,0.92,reactor_A,True,,75.2,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00298,2035-06-18 08:54:00,2035-06-18 08:54:00,sensor_pressure_A,pressure,43.9,kPa,0.91,reactor_A,True,,43.9,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00299,2035-06-18 08:54:00,2035-06-18 08:54:00,sensor_vibration_A,vibration,2.24,mm/s,0.87,pump_B,True,,2.24,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00300,2035-06-18 08:57:00,2035-06-18 08:57:00,sensor_temp_A,temperature,76.6,C,0.92,reactor_A,True,,76.6,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00301,2035-06-18 08:57:00,2035-06-18 08:57:00,sensor_pressure_A,pressure,46.3,kPa,0.91,reactor_A,True,,46.3,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00302,2035-06-18 09:00:00,2035-06-18 09:00:00,sensor_temp_A,temperature,75.0,C,0.92,reactor_A,True,,75.0,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00303,2035-06-18 09:00:00,2035-06-18 09:00:00,sensor_pressure_A,pressure,47.6,kPa,0.91,reactor_A,True,,47.6,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00304,2035-06-18 09:03:00,2035-06-18 09:03:00,sensor_temp_A,temperature,77.5,C,0.92,reactor_A,True,,77.5,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00305,2035-06-18 09:03:00,2035-06-18 09:03:00,sensor_pressure_A,pressure,46.4,kPa,0.91,reactor_A,True,,46.4,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00306,2035-06-18 09:06:00,2035-06-18 09:06:00,sensor_temp_A,temperature,77.0,C,0.92,reactor_A,True,,77.0,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00307,2035-06-18 09:06:00,2035-06-18 09:06:00,sensor_pressure_A,pressure,48.6,kPa,0.91,reactor_A,True,,48.6,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00308,2035-06-18 09:06:00,2035-06-18 09:06:00,sensor_vibration_A,vibration,2.97,mm/s,0.87,pump_B,True,,2.97,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00309,2035-06-18 09:09:00,2035-06-18 09:09:00,sensor_temp_A,temperature,77.5,C,0.92,reactor_A,True,,77.5,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00310,2035-06-18 09:09:00,2035-06-18 09:09:00,sensor_pressure_A,pressure,49.1,kPa,0.91,reactor_A,True,,49.1,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00311,2035-06-18 09:12:00,2035-06-18 09:12:00,sensor_temp_A,temperature,77.9,C,0.92,reactor_A,True,,77.9,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00312,2035-06-18 09:12:00,2035-06-18 09:12:00,sensor_pressure_A,pressure,50.2,kPa,0.91,reactor_A,True,,50.2,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00313,2035-06-18 09:15:00,2035-06-18 09:15:00,sensor_temp_A,temperature,80.0,C,0.92,reactor_A,True,,80.0,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00314,2035-06-18 09:15:00,2035-06-18 09:15:00,sensor_pressure_A,pressure,48.3,kPa,0.91,reactor_A,True,,48.3,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00315,2035-06-18 09:18:00,2035-06-18 09:18:00,sensor_temp_A,temperature,78.6,C,0.92,reactor_A,True,,78.6,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00316,2035-06-18 09:18:00,2035-06-18 09:18:00,sensor_pressure_A,pressure,51.9,kPa,0.91,reactor_A,True,,51.9,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00317,2035-06-18 09:18:00,2035-06-18 09:18:00,sensor_vibration_A,vibration,3.98,mm/s,0.87,pump_B,True,,3.98,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00318,2035-06-18 09:21:00,2035-06-18 09:21:00,sensor_temp_A,temperature,78.9,C,0.92,reactor_A,True,,78.9,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00319,2035-06-18 09:21:00,2035-06-18 09:21:00,sensor_pressure_A,pressure,50.8,kPa,0.91,reactor_A,True,,50.8,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00320,2035-06-18 09:24:00,2035-06-18 09:24:00,sensor_temp_A,temperature,79.9,C,0.92,reactor_A,True,,79.9,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00321,2035-06-18 09:24:00,2035-06-18 09:24:00,sensor_pressure_A,pressure,55.1,kPa,0.91,reactor_A,True,,55.1,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00322,2035-06-18 09:27:00,2035-06-18 09:27:00,sensor_temp_A,temperature,78.4,C,0.92,reactor_A,True,,78.4,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00323,2035-06-18 09:27:00,2035-06-18 09:27:00,sensor_pressure_A,pressure,55.1,kPa,0.91,reactor_A,True,,55.1,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00324,2035-06-18 09:30:00,2035-06-18 09:30:00,sensor_temp_A,temperature,80.0,C,0.92,reactor_A,True,,80.0,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00325,2035-06-18 09:30:00,2035-06-18 09:30:00,sensor_pressure_A,pressure,55.0,kPa,0.91,reactor_A,True,,55.0,true,,0.0,NO_FLAG,LOW
+CX-005,CX-005-EV00326,2035-06-18 09:30:00,2035-06-18 09:30:00,sensor_vibration_A,vibration,4.67,mm/s,0.87,pump_B,True,,4.67,true,,0.0,NO_FLAG,LOW
+CX-006,P001,,,cooling_sensor_A,temperature,82,C,0.96,cooling_system,True,Temperature rising,82.0,true,,,NO_FLAG,LOW
+CX-006,P002,,,cooling_sensor_A,temperature,88,C,0.97,cooling_system,True,Continued temperature rise,88.0,true,,,NO_FLAG,LOW
+CX-006,P003,,,flow_sensor_A,coolant_flow,42,percent,0.95,cooling_system,True,Reduced flow observation,42.0,true,,,NO_FLAG,LOW
+CX-006,P004,,,flow_sensor_A,coolant_flow,35,percent,0.96,cooling_system,True,Further flow reduction,35.0,true,,,NO_FLAG,LOW
+CX-006,P005,,,load_monitor,machine_load,72,percent,0.94,production_unit,True,Operating load observation,72.0,true,,,NO_FLAG,LOW
+CX-006,P006,,,maintenance_agent,maintenance_report,HEALTHY,text,0.91,auxiliary_pump,True,Maintenance report,,true,,,NO_FLAG,LOW
+CX-006,P007,,,history_archive,maintenance_report,HEALTHY,text,0.18,auxiliary_pump,False,Historical record requires verification,,false,Low trust score; Invalid signature; ,,REVIEW_REQUIRED,HIGH
+CX-006,P008,,,network_monitor,network_alert,ALERT,text,0.98,control_network,True,Unusual communication activity,,true,,,NO_FLAG,LOW
+CX-006,P009,,,agent_optimizer,recommendation,RECOVERY_ACTION_A,text,0.25,cooling_system,False,Untrusted agent recommendation,,false,Low trust score; Invalid signature; ,,REVIEW_REQUIRED,HIGH
+CX-006,P010,,,safety_monitor,safety_status,REVIEW_REQUIRED,text,0.99,safety_system,True,Independent review required,,true,,,NO_FLAG,LOW
+CX-006,P011,,,vibration_sensor,vibration,68,percent,0.93,mechanical_unit,True,Mechanical condition observation,68.0,true,,,NO_FLAG,LOW
+CX-006,P012,,,pressure_sensor,pressure,76,percent,0.92,mechanical_unit,True,Pressure observation,76.0,true,,,NO_FLAG,LOW
+CX-006,P013,,,history_archive,subsystem_status,FAULT,text,0.12,auxiliary_pump,False,Unverified historical subsystem claim,,false,Low trust score; Invalid signature; ,,REVIEW_REQUIRED,HIGH
+CX-006,P014,,,deadline_monitor,deadline_status,ACTIVE,text,0.99,decision_system,True,Virtual decision deadline active,,true,,,NO_FLAG,LOW

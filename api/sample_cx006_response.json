@@ -1,0 +1,93 @@
+{
+  "scenario_id": "CX-006",
+  "temporal_reconstruction": {
+    "event_count": 14,
+    "arrival_count": 14,
+    "duplicates": 0
+  },
+  "causal_investigation": {
+    "root_cause": "Network or control-system manipulation",
+    "hypotheses": [
+      {
+        "cause": "Network or control-system manipulation",
+        "score": 88,
+        "evidence": [
+          "Network alerts detected: 1"
+        ],
+        "assumptions": "Network alerts may be related to control activity; the actual causal connection requires simulator validation."
+      },
+      {
+        "cause": "Potential operating-condition confounding",
+        "score": 75,
+        "evidence": [
+          "Temperature and coolant-flow observations are present",
+          "Operating-condition events are available: machine_load"
+        ],
+        "assumptions": "The available operating-condition variables should be examined before attributing the observed changes to cooling degradation."
+      }
+    ]
+  },
+  "counterfactual_simulation": {
+    "best_option": "BACKUP_COOLING",
+    "results": [
+      {
+        "action": "BACKUP_COOLING",
+        "objective_score": 28.293575211987108,
+        "percentile_95": 32.6663512835846
+      },
+      {
+        "action": "REDUCE_MACHINE_LOAD",
+        "objective_score": 30.7753239033918,
+        "percentile_95": 37.694516841695496
+      },
+      {
+        "action": "VERIFY_EVIDENCE",
+        "objective_score": 32.1969325544124,
+        "percentile_95": 39.748507261068724
+      },
+      {
+        "action": "RECOVERY_ACTION_A",
+        "objective_score": 35.179482631033785,
+        "percentile_95": 43.30786171796466
+      },
+      {
+        "action": "ISOLATE_NETWORK",
+        "objective_score": 36.82685132979414,
+        "percentile_95": 43.149951847652616
+      },
+      {
+        "action": "INSPECT_MECHANICAL",
+        "objective_score": 39.81638141947019,
+        "percentile_95": 45.99949559106443
+      },
+      {
+        "action": "NO_ACTION",
+        "objective_score": 41.21878491762719,
+        "percentile_95": 49.790982095831026
+      }
+    ]
+  },
+  "optimization": {
+    "plan": [
+      "BACKUP_COOLING",
+      "REDUCE_MACHINE_LOAD"
+    ],
+    "feasible": true
+  },
+  "adversarial_detection": {
+    "records_analyzed": 14,
+    "flagged_records": 3
+  },
+  "safety_verification": {
+    "status": "UNKNOWN",
+    "actions": [
+      "BACKUP_COOLING",
+      "REDUCE_MACHINE_LOAD"
+    ],
+    "reasons": [
+      "3 high-priority events require independent evidence verification",
+      "Events requiring review: P007, P009, P013"
+    ]
+  },
+  "disclaimer": "Synthetic prototype results only. Not real-world industrial operating instructions."
+}

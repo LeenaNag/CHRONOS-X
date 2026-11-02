@@ -1,0 +1,7 @@
+scenario_id,execution_time_seconds,events_analyzed,root_cause,best_simulated_option,safety_status,flagged_records
+CX-001,0.3205,97,Cooling system degradation,BACKUP_COOLING,PASS,4
+CX-002,0.246,67,Temperature sensor spoofing or tampering,VERIFY_EVIDENCE,UNKNOWN,19
+CX-003,0.2496,50,Network or control-system manipulation,ISOLATE_NETWORK,UNKNOWN,4
+CX-004,0.2443,45,Potentially misleading maintenance report,VERIFY_EVIDENCE,UNKNOWN,3
+CX-005,0.2437,67,Possible mechanical equipment degradation,INSPECT_MECHANICAL,PASS,0
+CX-006,0.2927,14,Network or control-system manipulation,BACKUP_COOLING,UNKNOWN,3

@@ -1,0 +1,23 @@
+
+{
+  "scenario_id": "CX-006",
+  "evaluation_only": true,
+  "hidden_truth": {
+    "primary_issue": "Cooling system malfunction",
+    "compromised_agent": "agent_optimizer",
+    "forged_evidence": [
+      "P007",
+      "P013"
+    ],
+    "innocent_subsystem": "auxiliary_pump",
+    "delayed_secondary_failure": true,
+    "deadline_constraint": true
+  },
+  "evaluation_notes": [
+    "Cooling malfunction is the primary issue.",
+    "The optimizer recommendation is compromised.",
+    "Historical records implicating the auxiliary pump are forged.",
+    "A recovery action has an illustrative delayed secondary effect.",
+    "The decision engine must respect a bounded compute budget."
+  ]
+}

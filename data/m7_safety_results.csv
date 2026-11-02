@@ -1,0 +1,7 @@
+scenario_id,actions,resources,time,status,high_priority_events,reasons
+CX-001,BACKUP_COOLING + REDUCE_MACHINE_LOAD,8,13,PASS,0,All implemented prototype safety checks passed
+CX-002,VERIFY_EVIDENCE + REDUCE_MACHINE_LOAD,4,8,UNKNOWN,19,"19 high-priority events require independent evidence verification | Events requiring review: CX-002-EV00116, CX-002-EV00119, CX-002-EV00120, CX-002-EV00123, CX-002-EV00126, CX-002-EV00129, CX-002-EV00132, CX-002-EV00133, CX-002-EV00136, CX-002-EV00139, CX-002-EV00142, CX-002-EV00145, CX-002-EV00146, CX-002-EV00149, CX-002-EV00152, CX-002-EV00155, CX-002-EV00158, CX-002-EV00159, CX-002-EV00162"
+CX-003,ISOLATE_NETWORK + REDUCE_MACHINE_LOAD,9,12,UNKNOWN,4,"4 high-priority events require independent evidence verification | Events requiring review: CX-003-EV00183, CX-003-EV00187, CX-003-EV00193, CX-003-EV00198"
+CX-004,VERIFY_EVIDENCE + REDUCE_MACHINE_LOAD,4,8,UNKNOWN,3,"3 high-priority events require independent evidence verification | Events requiring review: CX-004-EV00229, CX-004-EV00242, CX-004-EV00255"
+CX-005,INSPECT_MECHANICAL + REDUCE_MACHINE_LOAD,7,13,PASS,0,All implemented prototype safety checks passed
+CX-006,BACKUP_COOLING + REDUCE_MACHINE_LOAD,8,13,UNKNOWN,3,"3 high-priority events require independent evidence verification | Events requiring review: P007, P009, P013"

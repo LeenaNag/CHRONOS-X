@@ -1,0 +1,5 @@
+### CHRONOS-X API Requests
+
+GET http://127.0.0.1:8000/
+GET http://127.0.0.1:8000/scenarios
+GET http://127.0.0.1:8000/analyze/CX-006

@@ -1,0 +1,16 @@
+
+scenario_id,event_id,event_time,arrival_time,source,event_type,value,unit,trust_score,component_id,signature_valid,note
+CX-006,P001,2026-10-31 09:00:00,2026-10-31 09:00:02,cooling_sensor_A,temperature,82,C,0.96,cooling_system,True,Temperature rising
+CX-006,P002,2026-10-31 09:01:00,2026-10-31 09:01:03,cooling_sensor_A,temperature,88,C,0.97,cooling_system,True,Continued temperature rise
+CX-006,P003,2026-10-31 09:02:00,2026-10-31 09:02:04,flow_sensor_A,coolant_flow,42,percent,0.95,cooling_system,True,Reduced flow observation
+CX-006,P004,2026-10-31 09:03:00,2026-10-31 09:03:02,flow_sensor_A,coolant_flow,35,percent,0.96,cooling_system,True,Further flow reduction
+CX-006,P005,2026-10-31 09:04:00,2026-10-31 09:04:01,load_monitor,machine_load,72,percent,0.94,production_unit,True,Operating load observation
+CX-006,P006,2026-10-31 09:05:00,2026-10-31 09:05:03,maintenance_agent,maintenance_report,HEALTHY,text,0.91,auxiliary_pump,True,Maintenance report
+CX-006,P007,2026-10-31 09:06:00,2026-10-31 09:06:01,history_archive,maintenance_report,HEALTHY,text,0.18,auxiliary_pump,False,Historical record requires verification
+CX-006,P008,2026-10-31 09:07:00,2026-10-31 09:07:02,network_monitor,network_alert,ALERT,text,0.98,control_network,True,Unusual communication activity
+CX-006,P009,2026-10-31 09:08:00,2026-10-31 09:08:01,agent_optimizer,recommendation,RECOVERY_ACTION_A,text,0.25,cooling_system,False,Untrusted agent recommendation
+CX-006,P010,2026-10-31 09:09:00,2026-10-31 09:09:02,safety_monitor,safety_status,REVIEW_REQUIRED,text,0.99,safety_system,True,Independent review required
+CX-006,P011,2026-10-31 09:10:00,2026-10-31 09:10:04,vibration_sensor,vibration,68,percent,0.93,mechanical_unit,True,Mechanical condition observation
+CX-006,P012,2026-10-31 09:11:00,2026-10-31 09:11:02,pressure_sensor,pressure,76,percent,0.92,mechanical_unit,True,Pressure observation
+CX-006,P013,2026-10-31 09:12:00,2026-10-31 09:12:03,history_archive,subsystem_status,FAULT,text,0.12,auxiliary_pump,False,Unverified historical subsystem claim
+CX-006,P014,2026-10-31 09:13:00,2026-10-31 09:13:01,deadline_monitor,deadline_status,ACTIVE,text,0.99,decision_system,True,Virtual decision deadline active

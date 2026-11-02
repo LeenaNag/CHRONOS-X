@@ -1,0 +1,36 @@
+.venv/
+.venv311/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+.vscode/
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Testing and cache
+.pytest_cache/
+.hypothesis/
+.coverage
+htmlcov/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Old repository backup
+.git_old_backup/
