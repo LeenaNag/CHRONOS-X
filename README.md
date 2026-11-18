@@ -1,4 +1,3 @@
-
 # CHRONOS-X
 ## Industrial Risk Intelligence and Decision Support Prototype
 
@@ -292,3 +291,4 @@ api/requests.http
 CHRONOS-X is an academic research prototype developed for hackathon demonstration and evaluation.
 
 All scenarios, event records, and simulated outcomes are illustrative. This prototype is not a certified industrial safety system and must not be used as a substitute for professional engineering assessment or operational safety procedures.
+
